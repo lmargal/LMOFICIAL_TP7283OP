@@ -1,23 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Profile xmlns="http://soap.sforce.com/2006/04/metadata">
     <custom>true</custom>
-    <description>existing value</description>
+    <description>BotProfileWithIpRanges description</description>
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.AccountNumber</field>
         <readable>false</readable>
     </fieldPermissions>
     <loginIpRanges>
-        <endAddress>83.0.0.0</endAddress>
-        <startAddress>83.0.0.255</startAddress>
-    </loginIpRanges>
-    <loginIpRanges>
-        <endAddress>84.0.0.0</endAddress>
-        <startAddress>84.0.0.255</startAddress>
-    </loginIpRanges>
-    <loginIpRanges>
-        <endAddress>85.0.0.0</endAddress>
-        <startAddress>85.0.0.255</startAddress>
+        <description>Description 2020-05-04T08:22:20</description>
+        <endAddress>192.168.2.255</endAddress>
+        <startAddress>192.168.2.1</startAddress>
     </loginIpRanges>
     <userLicense>Salesforce</userLicense>
     <userPermissions>
